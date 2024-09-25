@@ -27,7 +27,7 @@ public class NEGLoginTest {
         WebElement SignInButton = driver.findElement(By.id("loginButton"));
         SignInButton.click();
 
-        //verifikasi password salah page tetap di login pagee
+        //verifikasi password salah page tetap di login jir
         String currentURL = driver.getCurrentUrl();
         System.out.println(currentURL);
         assertTrue(currentURL.contains("https://simpa.datains.id/login"));
